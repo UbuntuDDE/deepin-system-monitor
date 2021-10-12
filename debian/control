@@ -4,16 +4,19 @@ Priority: optional
 Maintainer: Ananta Mishra <mishraananta2017@gmail.com>
 XSBC-Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-Depends:
-cmake,
+ cmake,
  debhelper-compat (=13),
  deepin-gettext-tools,
  libdtkwidget-dev(>=5.5~),
  libdtkwm-dev,
  libicu-dev,
  libncurses-dev,
+ libnl-3-dev,
+ libnl-route-3-dev,
  libpcap-dev,
  libprocps-dev,
  libqt5x11extras5-dev,
+ libudev-dev,
  libxcb-icccm4-dev,
  libxcb-util0-dev,
  libxcb1-dev,
@@ -24,9 +27,6 @@ cmake,
  qtbase5-dev,
  qttools5-dev,
  qttools5-dev-tools,
- libnl-3-dev,
- libnl-route-3-dev,
- libudev-dev,
 Standards-Version: 4.5.1
 Homepage: https://github.com/linuxdeepin/deepin-system-monitor
 
